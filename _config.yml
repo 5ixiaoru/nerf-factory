@@ -16,7 +16,7 @@
 remote_theme: just-the-docs/just-the-docs
 title: NeRF-Factory
 description: An awesome NeRF collection
-baseurl: "/NeRF-Factory" # the subpath of your site, e.g. /blog
+baseurl: "/nerf-factory" # the subpath of your site, e.g. /blog
 url: "https://NeRF-Factory.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: pretty
