@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-remote_theme: just-the-docs/just-the-docs
+theme: just-the-docs
 title: NeRF-Factory
 description: An awesome NeRF collection
 baseurl: "/NeRF-Factory" # the subpath of your site, e.g. /blog
@@ -115,6 +115,7 @@ ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (t
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-default-layout
 
 kramdown:
   syntax_highlighter_opts:
